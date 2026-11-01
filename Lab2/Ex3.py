@@ -17,7 +17,6 @@ ax[0].scatter(x[knn_labels == 0, 0], x[knn_labels == 0, 1], c='blue')
 ax[0].scatter(x[knn_labels == 1, 0], x[knn_labels == 1, 1], c='red')
 ax[0].set_title('KNN')
 
-# Plot LOF Results
 ax[1].scatter(x[lof_labels == 0, 0], x[lof_labels == 0, 1], c='blue')
 ax[1].scatter(x[lof_labels == 1, 0], x[lof_labels == 1, 1], c='red')
 ax[1].set_title('LOF')
