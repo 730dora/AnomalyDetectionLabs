@@ -9,9 +9,6 @@ from pyod.models.loda import LODA
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import balanced_accuracy_score
 
-import warnings
-warnings.filterwarnings("ignore", message=".*pin_memory.*")
-
 dict = loadmat("shuttle.mat")
 x = dict['X']
 y = dict['y']
